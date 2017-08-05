@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32F8A3441ED2A3390012919C /* LHLWineryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F8A3431ED2A3390012919C /* LHLWineryTableViewController.m */; };
+		D02986721ED124E400955AA0 /* comtesDeChampagne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D02986711ED124E400955AA0 /* comtesDeChampagne.jpg */; };
+		D02986741ED124FA00955AA0 /* zarate.gif in Resources */ = {isa = PBXBuildFile; fileRef = D02986731ED124FA00955AA0 /* zarate.gif */; };
+		D02986771ED15CA200955AA0 /* LHLWineryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D02986761ED15CA200955AA0 /* LHLWineryModel.m */; };
+		D0A1AC221EC55F8900448D22 /* LHLWineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A1AC211EC55F8900448D22 /* LHLWineViewController.xib */; };
+		D0C3827A1EBEEC860075C670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C382791EBEEC860075C670 /* main.m */; };
+		D0C3827D1EBEEC860075C670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3827C1EBEEC860075C670 /* AppDelegate.m */; };
+		D0C382851EBEEC860075C670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C382841EBEEC860075C670 /* Assets.xcassets */; };
+		D0C382881EBEEC860075C670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0C382861EBEEC860075C670 /* LaunchScreen.storyboard */; };
+		D0C382921EBEF4180075C670 /* LHLWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C382901EBEF4180075C670 /* LHLWineViewController.m */; };
+		D0CDC07E1EC1045C00B53E35 /* LHLWineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CDC07D1EC1045C00B53E35 /* LHLWineModel.m */; };
+		D0D68C6D1ECA5ED600BBC9DF /* LHLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D68C6B1ECA5ED600BBC9DF /* LHLWebViewController.m */; };
+		D0D68C6E1ECA5ED600BBC9DF /* LHLWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D68C6C1ECA5ED600BBC9DF /* LHLWebViewController.xib */; };
+		D0E32CD11EC1399300BB5130 /* bembibre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0E32CD01EC1399300BB5130 /* bembibre.jpg */; };
+		D0E32CD41EC139B700BB5130 /* splitView_score_glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E32CD31EC139B700BB5130 /* splitView_score_glass@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32F8A3421ED2A3390012919C /* LHLWineryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHLWineryTableViewController.h; sourceTree = "<group>"; };
+		32F8A3431ED2A3390012919C /* LHLWineryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHLWineryTableViewController.m; sourceTree = "<group>"; };
+		D02986711ED124E400955AA0 /* comtesDeChampagne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comtesDeChampagne.jpg; sourceTree = "<group>"; };
+		D02986731ED124FA00955AA0 /* zarate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = zarate.gif; sourceTree = "<group>"; };
+		D02986751ED15CA200955AA0 /* LHLWineryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHLWineryModel.h; sourceTree = "<group>"; };
+		D02986761ED15CA200955AA0 /* LHLWineryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHLWineryModel.m; sourceTree = "<group>"; };
+		D0A1AC211EC55F8900448D22 /* LHLWineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHLWineViewController.xib; sourceTree = "<group>"; };
+		D0C382751EBEEC860075C670 /* WineProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WineProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C382791EBEEC860075C670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0C3827B1EBEEC860075C670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0C3827C1EBEEC860075C670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0C382841EBEEC860075C670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0C382871EBEEC860075C670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0C382891EBEEC860075C670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C3828F1EBEF4180075C670 /* LHLWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHLWineViewController.h; sourceTree = "<group>"; };
+		D0C382901EBEF4180075C670 /* LHLWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHLWineViewController.m; sourceTree = "<group>"; };
+		D0CDC07C1EC1045C00B53E35 /* LHLWineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHLWineModel.h; sourceTree = "<group>"; };
+		D0CDC07D1EC1045C00B53E35 /* LHLWineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHLWineModel.m; sourceTree = "<group>"; };
+		D0D68C6A1ECA5ED600BBC9DF /* LHLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHLWebViewController.h; sourceTree = "<group>"; };
+		D0D68C6B1ECA5ED600BBC9DF /* LHLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHLWebViewController.m; sourceTree = "<group>"; };
+		D0D68C6C1ECA5ED600BBC9DF /* LHLWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LHLWebViewController.xib; sourceTree = "<group>"; };
+		D0E32CD01EC1399300BB5130 /* bembibre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bembibre.jpg; sourceTree = "<group>"; };
+		D0E32CD31EC139B700BB5130 /* splitView_score_glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splitView_score_glass@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C382721EBEEC860075C670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32DD274F1EE4D97D001FFA9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C3826C1EBEEC860075C670 = {
+			isa = PBXGroup;
+			children = (
+				D0C382771EBEEC860075C670 /* WineProject */,
+				D0C382761EBEEC860075C670 /* Products */,
+				32DD274F1EE4D97D001FFA9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C382761EBEEC860075C670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C382751EBEEC860075C670 /* WineProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C382771EBEEC860075C670 /* WineProject */ = {
+			isa = PBXGroup;
+			children = (
+				D0E32CD21EC1399C00BB5130 /* Resources */,
+				D0C3827B1EBEEC860075C670 /* AppDelegate.h */,
+				D0C3827C1EBEEC860075C670 /* AppDelegate.m */,
+				D0C382841EBEEC860075C670 /* Assets.xcassets */,
+				D0C382861EBEEC860075C670 /* LaunchScreen.storyboard */,
+				D0C382891EBEEC860075C670 /* Info.plist */,
+				D0C382781EBEEC860075C670 /* Supporting Files */,
+				D0CDC0801EC1046F00B53E35 /* ViewControllers */,
+				D0CDC07F1EC1046100B53E35 /* Model */,
+			);
+			path = WineProject;
+			sourceTree = "<group>";
+		};
+		D0C382781EBEEC860075C670 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C382791EBEEC860075C670 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0CDC07F1EC1046100B53E35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0CDC07C1EC1045C00B53E35 /* LHLWineModel.h */,
+				D0CDC07D1EC1045C00B53E35 /* LHLWineModel.m */,
+				D02986751ED15CA200955AA0 /* LHLWineryModel.h */,
+				D02986761ED15CA200955AA0 /* LHLWineryModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D0CDC0801EC1046F00B53E35 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0D68C6A1ECA5ED600BBC9DF /* LHLWebViewController.h */,
+				D0D68C6B1ECA5ED600BBC9DF /* LHLWebViewController.m */,
+				D0D68C6C1ECA5ED600BBC9DF /* LHLWebViewController.xib */,
+				D0C3828F1EBEF4180075C670 /* LHLWineViewController.h */,
+				D0C382901EBEF4180075C670 /* LHLWineViewController.m */,
+				D0A1AC211EC55F8900448D22 /* LHLWineViewController.xib */,
+				32F8A3421ED2A3390012919C /* LHLWineryTableViewController.h */,
+				32F8A3431ED2A3390012919C /* LHLWineryTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D0E32CD21EC1399C00BB5130 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0E32CD31EC139B700BB5130 /* splitView_score_glass@2x.png */,
+				D02986711ED124E400955AA0 /* comtesDeChampagne.jpg */,
+				D02986731ED124FA00955AA0 /* zarate.gif */,
+				D0E32CD01EC1399300BB5130 /* bembibre.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C382741EBEEC860075C670 /* WineProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C3828C1EBEEC860075C670 /* Build configuration list for PBXNativeTarget "WineProject" */;
+			buildPhases = (
+				D0C382711EBEEC860075C670 /* Sources */,
+				D0C382721EBEEC860075C670 /* Frameworks */,
+				D0C382731EBEEC860075C670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WineProject;
+			productName = WineProject;
+			productReference = D0C382751EBEEC860075C670 /* WineProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C3826D1EBEEC860075C670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LHL;
+				TargetAttributes = {
+					D0C382741EBEEC860075C670 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XZHL7XD48E;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D0C382701EBEEC860075C670 /* Build configuration list for PBXProject "WineProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0C3826C1EBEEC860075C670;
+			productRefGroup = D0C382761EBEEC860075C670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C382741EBEEC860075C670 /* WineProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C382731EBEEC860075C670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A1AC221EC55F8900448D22 /* LHLWineViewController.xib in Resources */,
+				D02986721ED124E400955AA0 /* comtesDeChampagne.jpg in Resources */,
+				D0C382881EBEEC860075C670 /* LaunchScreen.storyboard in Resources */,
+				D0E32CD41EC139B700BB5130 /* splitView_score_glass@2x.png in Resources */,
+				D0D68C6E1ECA5ED600BBC9DF /* LHLWebViewController.xib in Resources */,
+				D02986741ED124FA00955AA0 /* zarate.gif in Resources */,
+				D0C382851EBEEC860075C670 /* Assets.xcassets in Resources */,
+				D0E32CD11EC1399300BB5130 /* bembibre.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C382711EBEEC860075C670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02986771ED15CA200955AA0 /* LHLWineryModel.m in Sources */,
+				D0C3827D1EBEEC860075C670 /* AppDelegate.m in Sources */,
+				D0D68C6D1ECA5ED600BBC9DF /* LHLWebViewController.m in Sources */,
+				D0C3827A1EBEEC860075C670 /* main.m in Sources */,
+				D0CDC07E1EC1045C00B53E35 /* LHLWineModel.m in Sources */,
+				32F8A3441ED2A3390012919C /* LHLWineryTableViewController.m in Sources */,
+				D0C382921EBEF4180075C670 /* LHLWineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0C382861EBEEC860075C670 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0C382871EBEEC860075C670 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0C3828A1EBEEC860075C670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D0C3828B1EBEEC860075C670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C3828D1EBEEC860075C670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XZHL7XD48E;
+				INFOPLIST_FILE = WineProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.lhlwineproject.WineProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0C3828E1EBEEC860075C670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XZHL7XD48E;
+				INFOPLIST_FILE = WineProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.lhlwineproject.WineProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C382701EBEEC860075C670 /* Build configuration list for PBXProject "WineProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C3828A1EBEEC860075C670 /* Debug */,
+				D0C3828B1EBEEC860075C670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C3828C1EBEEC860075C670 /* Build configuration list for PBXNativeTarget "WineProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C3828D1EBEEC860075C670 /* Debug */,
+				D0C3828E1EBEEC860075C670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C3826D1EBEEC860075C670 /* Project object */;
+}
